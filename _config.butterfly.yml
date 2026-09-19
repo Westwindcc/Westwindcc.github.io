@@ -1,0 +1,63 @@
+# 导航栏
+nav:
+  logo: /img/leisai.png
+  display_title: true
+  fixed: false
+
+# 网站图标
+favicon: /img/favicon.png
+
+# 头像
+avatar:
+  img: /images/head.png
+  effect: false        # 头像动画，建议关闭
+
+# 顶部图
+default_top_img: /img/banner.jpg
+index_img: /img/banner1.jpg
+archive_img: /img/bg1.jpg
+tag_img: /img/bg2.jpg
+category_img: /img/bg3.jpg
+
+# 背景图
+background: /img/bg.jpg
+
+# 代码高亮
+highlight_theme: mac
+
+# 深色模式
+darkmode:
+  enable: true
+  button: true
+  autoChangeMode: 2
+
+# 打字机效果
+subtitle:
+  enable: true
+  loop: true
+  source: false
+  sub: 
+    - 欢迎来到我的博客
+    - 记录技术与生活
+
+# 本地搜索
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
+
+# 懒加载
+lazyload:
+  enable: true
+  native: false
+  field: site
+  blur: true
+
+# 字数统计
+wordcount:
+  enable: true
+  post_wordcount: true
+  min2read: true
+  total_wordcount: true
+
