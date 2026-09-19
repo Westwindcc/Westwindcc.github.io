@@ -62,11 +62,13 @@ wordcount:
   total_wordcount: true
 
 # 个人卡片
-card_author:
-  enable: true
-  description: 记录技术与生活
-  button:
+
+aside:
+  card_author:
     enable: true
-    icon: fab fa-github
-    text: Follow Me
-    link: https://github.com/Westwindcc
+    description: 记录技术与生活
+    button:
+      enable: true
+      icon: fab fa-github
+      text: Follow Me
+      link: https://github.com/Westwindcc
